@@ -4,3 +4,17 @@ En este curso vas a poner en practica los conceptos del curso de [JavaScript Bas
 
 ## Por: Edier Dario Bravo Bravo
 
+# Classlist.toggle()
+
+Se usa para alternar clases al elemento. Significa agregar una nueva clase o eliminar las clases existentes. En el siguiente codigo `desktopMenu` es la seccion de codigo a la cual se le agregara y quitara alternamente la clase  `inactive`
+
+```js
+const menuEmail = document.querySelector(`.navbar-right`);  // selector de la opcion al que se le dara click
+const desktopMenu = document.querySelector(`.desktop-menu`); // selector de la seccion de codigo
+
+menuEmail.addEventListener(`click`, toggleDesktopMenu); // añade evento 
+
+function toggleDesktopMenu(){
+    desktopMenu.classList.toggle(`inactive`) // aparece y desaparece la clase inactive a la seccion desktopMenu
+}
+```
