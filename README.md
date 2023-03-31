@@ -2,6 +2,8 @@
 
 En este curso vas a poner en practica los conceptos del curso de [JavaScript Basico](https://github.com/edierbra/JavaScript_Basico) y del curso [JavaScript Basico Practico parte 1](https://github.com/edierbra/JavaScript_Basico_Practico)
 
+Accede a este [enlace](https://edierbra.github.io/JavaScript_Basico_Practico2/) para observar el resultado final
+
 ## Por: Edier Dario Bravo Bravo
 
 # Classlist.toggle()
@@ -18,3 +20,5 @@ function toggleDesktopMenu(){
     desktopMenu.classList.toggle(`inactive`) // aparece y desaparece la clase inactive a la seccion desktopMenu
 }
 ```
+
+# SIGUE APRENDIENDO ❤️❤️❤️❤️❤️❤️
